@@ -8,11 +8,11 @@ const computer = {
 
 const jaan = Object.keys(computer); //Find The How Many Keys are stay in any object
 
-console.log(jaan)
+// console.log(jaan)
 
 
 const toos = Object.values(computer) //Show the Values in Object
-console.log(toos)
+// console.log(toos)
 
 
 const college = {
@@ -28,8 +28,22 @@ const college = {
     }
 }
 
-console.log(college.Unique.regult.gpa)
+// console.log(college.Unique.regult.gpa)
 
-console.log(delete college.Unique["regult"])
+// console.log(delete college.Unique["regult"])
 
-console.log(college)
+// console.log(college)
+
+// For In Loop On An Object
+
+// for (let prop in computer) {
+//     console.log(computer[prop])
+// }
+
+const keys = Object.keys(computer);
+
+console.log(keys)
+
+for (let jaan of keys) {
+    console.log(jaan, ": ", computer[jaan])
+}
