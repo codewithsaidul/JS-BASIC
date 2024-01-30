@@ -29,3 +29,7 @@ const college = {
 }
 
 console.log(college.Unique.regult.gpa)
+
+console.log(delete college.Unique["regult"])
+
+console.log(college)
