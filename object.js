@@ -6,4 +6,9 @@ const sadia = {
 }
 
 
-console.log(sadia)
+const gf = 'bf';
+
+console.log(sadia[gf])
+
+
+
