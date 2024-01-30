@@ -42,29 +42,57 @@
 
 // Video 19.3
 
-const address = 'noapara'
+// const address = 'noapara'
 
-const part = address.slice(2, 5)
+// const part = address.slice(2, 5)
 
-console.log(part);
-
-
-const sente = "I Love You Kulsuma Akther Sadia";
-
-console.log(sente.split(','))
-
-const friend = ['saidul', 'sadia', 'mitu', 'numan', 'jubayer'];
-
-console.log(friend.join('||'))
+// console.log(part);
 
 
-const first = 'saidul';
-let second = 'kulsuma'
+// const sente = "I Love You Kulsuma Akther Sadia";
 
-const love = first + ' ' +  second;
+// console.log(sente.split(','))
 
-console.log(love)
+// const friend = ['saidul', 'sadia', 'mitu', 'numan', 'jubayer'];
 
-console.log(second.includes('a'))
+// console.log(friend.join('||'))
 
-console.log(first.concat(' ').concat(second))
+
+// const first = 'saidul';
+// let second = 'kulsuma'
+
+// const love = first + ' ' +  second;
+
+// console.log(love)
+
+// console.log(second.includes('a'))
+
+// console.log(first.concat(' ').concat(second))
+
+
+
+const sentence = "aidaS eM yrraM uoY lliW";
+
+// console.log(sentence)
+
+
+let reverse = ''
+
+// for (let letter of sentence) {
+//     reverse = letter + reverse
+
+// }
+
+for (let i = 0; i < sentence.length; i++) {
+    // console.log(i);
+
+    // console.log(sentence[i])
+
+    const letter = sentence[i];
+
+    reverse = letter + reverse;
+}
+
+console.log(reverse)
+
+console.log(sentence.split('').reverse().join(''))
