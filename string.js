@@ -28,3 +28,12 @@ if (sub === book) {
 } else {
     console.log("Hudai Pista Ultay")
 }
+
+const drink = ' wat er';
+const liquid = '  water ';
+
+if (drink.trim() === liquid.trim()) {
+    console.log("ami pani khai")
+} else {
+    console.log("somdre pani ase khaite pari na")
+}
