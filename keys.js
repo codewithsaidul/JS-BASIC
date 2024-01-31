@@ -40,10 +40,24 @@ const college = {
 //     console.log(computer[prop])
 // }
 
-const keys = Object.keys(computer);
+// const keys = Object.keys(computer);
 
-console.log(keys)
+// console.log(keys)
 
-for (let jaan of keys) {
-    console.log(jaan, ": ", computer[jaan])
-}
+// for (let jaan of keys) {
+//     console.log(jaan, ": ", computer[jaan])
+// }
+
+var person = {};
+
+person.name = "sado"
+person.age = 22;
+
+console.log(person)
+
+// let str = "Mississippi";
+// console.log(str.indexOf("i", 3));
+
+const str = "Hello";
+str[0] = "h";
+console.log(str);
